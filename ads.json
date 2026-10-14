@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "enabled": true,
+  "remoteUrl": "",
+  "maxAdContentRating": "T",
+  "notes": "Ganti remoteUrl dengan https://…/ads.json untuk mengatur iklan tanpa update aplikasi. Peran main/backup ditukar di networks.role. Unit AdMob dan Facebook diganti di units. App ID AdMob (AndroidManifest) dan Facebook App ID (res/values/strings.xml) tidak bisa diremote; itu dibaca SDK saat proses mulai. ID di file ini adalah ID tes Google dan Meta. Ganti sebelum rilis, jangan klik iklan sendiri. Parser menolak banner di camera, settings, viewer, dan intro. Interval interstitial minimal 60 detik. App open hanya AdMob: Facebook tidak punya format app open, dan interstitial saat aplikasi dibuka melanggar aturan Google. Cap rewarded hanya diberikan jika video selesai.",
+  "networks": {
+    "admob": { "enabled": true, "role": "main" },
+    "facebook": { "enabled": true, "role": "backup" }
+  },
+  "units": {
+    "admob": {
+      "banner": "ca-app-pub-3940256099942544/6300978111",
+      "native": "ca-app-pub-3940256099942544/2247696110",
+      "interstitial": "ca-app-pub-3940256099942544/1033173712",
+      "rewarded": "ca-app-pub-3940256099942544/5224354917",
+      "appOpen": "ca-app-pub-3940256099942544/9257395921"
+    },
+    "facebook": {
+      "banner": "IMG_16_9_APP_INSTALL#2312433698835503_2964944860251047",
+      "native": "IMG_16_9_APP_INSTALL#2312433698835503_2964952163583650",
+      "interstitial": "IMG_16_9_APP_INSTALL#2312433698835503_2650502525028617",
+      "rewarded": "VID_HD_16_9_46S_APP_INSTALL#2312433698835503_2964952163583650",
+      "appOpen": ""
+    }
+  },
+  "formats": {
+    "appOpen": { "backup": "none" }
+  },
+  "placements": {
+    "banner": {
+      "enabled": true,
+      "screens": ["shelf", "profiles"]
+    },
+    "native": {
+      "enabled": true,
+      "minPhotos": 4,
+      "insertAfter": 6
+    },
+    "interstitial": {
+      "enabled": true,
+      "minIntervalSeconds": 120,
+      "everyNViews": 2,
+      "gapAfterFullScreenSeconds": 60
+    },
+    "rewarded": {
+      "enabled": true,
+      "rewardMinutes": 30
+    },
+    "appOpen": {
+      "enabled": true,
+      "minBackgroundSeconds": 30,
+      "cooldownSeconds": 240,
+      "maxCacheHours": 4
+    }
+  },
+  "facebookTestingId": ""
+}
