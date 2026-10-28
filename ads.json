@@ -54,5 +54,13 @@
       "maxCacheHours": 4
     }
   },
-  "facebookTestingId": ""
+  "facebookTestingId": "",
+  "apps": [
+  {
+    "package_name": "com.dazzcam.dazzcam",
+    "status": true,
+    "redirect_url": "",
+    "privacy_policy_url": ""
+  }
+]
 }
