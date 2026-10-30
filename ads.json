@@ -1,7 +1,7 @@
 {
   "version": 1,
   "enabled": true,
-  "remoteUrl": "",
+  "remoteUrl": "https://raw.githubusercontent.com/wislenema/dazzcam/refs/heads/main/ads.json",
   "maxAdContentRating": "T",
   "notes": "Ganti remoteUrl dengan https://…/ads.json untuk mengatur iklan tanpa update aplikasi. Peran main/backup ditukar di networks.role. Unit AdMob dan Facebook diganti di units. App ID AdMob (AndroidManifest) dan Facebook App ID (res/values/strings.xml) tidak bisa diremote; itu dibaca SDK saat proses mulai. ID di file ini adalah ID tes Google dan Meta. Ganti sebelum rilis, jangan klik iklan sendiri. Parser menolak banner di camera, settings, viewer, dan intro. Interval interstitial minimal 60 detik. App open hanya AdMob: Facebook tidak punya format app open, dan interstitial saat aplikasi dibuka melanggar aturan Google. Cap rewarded hanya diberikan jika video selesai.",
   "networks": {
@@ -57,10 +57,11 @@
   "facebookTestingId": "",
   "apps": [
   {
-    "package_name": "com.dazzcam.dazzcam",
+    "package_name": "com.dasilvas.dazzcamvintagecamera",
     "status": true,
     "redirect_url": "",
-    "privacy_policy_url": ""
+    "privacy_policy_url": "",
+    "min_version_code": 2
   }
 ]
 }
