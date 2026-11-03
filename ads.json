@@ -60,7 +60,10 @@
     "package_name": "com.dasilvas.dazzcamvintagecamera",
     "status": true,
     "redirect_url": "",
-    "privacy_policy_url": "",
+    "privacy_policy_url": "https://dasilvapress.blogspot.com/p/privacy-policy-dazz.html",
+    "terms_url": "https://dasilvapress.blogspot.com/p/terms-of-use.html",
+    "feedback_url": "",
+    "feedback_email": "bernandosilva450@gmail.com",
     "min_version_code": 0
   }
 ]
