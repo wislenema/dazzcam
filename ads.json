@@ -10,11 +10,11 @@
   },
   "units": {
     "admob": {
-      "banner": "ca-app-pub-3940256099942544/6300978111",
-      "native": "ca-app-pub-3940256099942544/2247696110",
-      "interstitial": "ca-app-pub-3940256099942544/1033173712",
+      "banner": "ca-app-pub-1035356215945012/1714954538",
+      "native": "ca-app-pub-1035356215945012/6775709526",
+      "interstitial": "ca-app-pub-1035356215945012/2265618877",
       "rewarded": "ca-app-pub-3940256099942544/5224354917",
-      "appOpen": "ca-app-pub-3940256099942544/9257395921"
+      "appOpen": "ca-app-pub-1035356215945012/6584137837"
     },
     "facebook": {
       "banner": "IMG_16_9_APP_INSTALL#2312433698835503_2964944860251047",
